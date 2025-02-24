@@ -1,0 +1,26 @@
+/* estilo.css */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f0f0f0;
+}
+
+.header-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #333;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+.table-view {
+    -fx-background-color: white;
+}
+
+.artist-name {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}

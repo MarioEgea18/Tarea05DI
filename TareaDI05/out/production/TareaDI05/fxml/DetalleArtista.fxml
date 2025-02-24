@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="net.sqlitetutorial.DetalleArtistas"
+            stylesheets="@../css/estilo.css">
+    <top>
+        <HBox spacing="10" alignment="CENTER">
+            <ImageView fitHeight="50" fitWidth="50" preserveRatio="true">
+                <Image url="@../imagenes/logo.png"/>
+            </ImageView>
+            <Label text="Mi Empresa" styleClass="header-label"/>
+        </HBox>
+    </top>
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label fx:id="lblArtistName" styleClass="artist-name"/>
+            <TreeView fx:id="treeViewAlbums"/>
+        </VBox>
+    </center>
+</BorderPane>

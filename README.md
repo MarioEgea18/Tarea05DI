@@ -9,3 +9,6 @@ Informe de clientes: Muestra una lista de todos los clientes almacenados en la b
 Informe de artistas: Muestra una lista de artistas, y al seleccionar uno, se muestran los álbumes del artista junto con las pistas de cada uno de esos álbumes.
 
 La interfaz también incluye un encabezado con el logo de la empresa y tambien un archivo css con los estilos que yo he elegido para la interfaz.
+
+Aqui la imagen de la salida del proyecto
+![image](https://github.com/user-attachments/assets/65c8591a-898a-4b91-866d-80d72b3f4822)
